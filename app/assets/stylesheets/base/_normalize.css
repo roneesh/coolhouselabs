@@ -27,6 +27,17 @@ summary {
  * Correct `inline-block` display not defined in IE 8/9.
  */
 
+/*Cuasing lists to have 40px padding left*/
+ul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 00px;
+}
+
 audio,
 canvas,
 video {
