@@ -1,3 +1,5 @@
+@import '../base/variables'
+
 
 .cohort-list
   list-style-type: none
@@ -53,7 +55,12 @@
 .advisor-list
   list-style-type: none
   padding-left: 40px
-  
+  li
+    border-bottom: 1px solid $gray 
+    padding-bottom: 30px
+  li:last-child
+    border-bottom: none
+
 .additional-mentors-list
   list-style-type: none
   padding-left: 40px
