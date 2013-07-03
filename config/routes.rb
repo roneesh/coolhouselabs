@@ -1,9 +1,10 @@
 Coolhouse::Application.routes.draw do
-  get "pages/home"
-  get "pages/program"
-  get "pages/team"
-  get "pages/blog"
-  get "pages/connect"
+  get "/home", controller: "pages", action: "home"
+  get "/program", controller: "pages", action: "program"
+  get "/team", controller: "pages", action: "team"
+  get "/blog", controller: "pages", action: "blog"
+  get "/connect", controller: "pages", action: "connect"
+  get "/sponsors", controller: "pages", action: "sponsors"
   resources :posts
 
   # The priority is based upon order of creation: first created -> highest priority.

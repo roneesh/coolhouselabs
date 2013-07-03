@@ -7,7 +7,7 @@
         277 E Main St.
         Harbor Springs, MI 
       %p 
-        XXX-XXX-XXXX
+        435-659-1294
         info@coolhouselabs.com 
       %ul.social-media-list.clearfix
         %li
@@ -21,14 +21,18 @@
             =image_tag "facebook_icon.svg"
 
   .nav-right
-    .nav-right-link.program-link 
-      %p Program
-    .nav-right-link.blog-link 
-      %p Blog
-    .nav-right-link.team-link 
-      %p Team
-    .nav-right-link.connect-link 
-      %p Connect
+    %a(href="/program")
+      .nav-right-link.program-link 
+        %p Program
+    %a(href="/blog")
+      .nav-right-link.blog-link 
+        %p Blog
+    %a(href="/team")
+      .nav-right-link.team-link 
+        %p Team
+    %a(href="/connect")
+      .nav-right-link.connect-link 
+        %p Connect
 
 .footer
   %small (C) Coolhouse Labs, LLC. Proudly built in Harbor Springs, MI.
