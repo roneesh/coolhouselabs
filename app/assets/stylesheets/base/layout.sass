@@ -3,20 +3,26 @@
 .container
   width: 100%
 
+@mixin headings-common
+  font-family: 'avenir'
+  text-transform: uppercase 
+
+
 body
   margin: 0
   // padding: 20px
 
 p
-  // color: #777
+  color: #777
   font-family: 'avenir'
-  font-size: 22px
+  font-size: 18px
   letter-spacing: 1px
-  line-height: 27px
+  line-height: 25px
 
-@mixin headings-common
-  font-family: 'avenir'
-  text-transform: uppercase 
+
+img
+  display: block
+
 
 /* Site Header */
 h1
@@ -38,6 +44,7 @@ h3
   font-family: 'avenir'
   letter-spacing: 2px
   font-size: 24px
+  color: white
 
 /* Team - Sub-header */
 h4
@@ -103,3 +110,25 @@ h6
 
 .clearfix
   *zoom: 1
+
+@media all and (max-width: 1040px)
+  h1
+    @include headings-common
+    font-size: 48px
+  p
+    font-family: 'avenir'
+    font-size: 16px
+    letter-spacing: 1px
+    line-height: 27px
+
+@media all and (max-width: 875px)
+  h1
+    font-size: 32px
+
+@media all and (max-width: 680px)
+  h1
+    font-size: 24px
+
+@media all and (max-width: 580px)
+  h1
+    font-size: 16px
