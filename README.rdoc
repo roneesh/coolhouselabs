@@ -1,7 +1,4 @@
-team page
-  - 1140px container
-  - fellows li at 33%
-  - border-left of advisory board less apparent
+
 
 
 footer
@@ -10,4 +7,3 @@ footer
 home
   - at small widht heading and copy lose float left
 
-  
