@@ -13,4 +13,8 @@ class PagesController < ApplicationController
 
   def connect
   end
+
+  def sponsors
+  end
+  
 end

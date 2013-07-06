@@ -3,7 +3,6 @@
 
 footer
   -responsive font
-
 home
   - at small widht heading and copy lose float left
 
