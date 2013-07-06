@@ -70,10 +70,46 @@
     border-bottom: 1px solid $gray 
     padding-bottom: 30px
   img
-
   li:last-child
     border-bottom: none
 
 .additional-mentors-list
   list-style-type: none
   padding-left: 40px
+
+@media all and (max-width: 580px)
+  .team-list
+    list-style-type: none
+    margin: 0 auto
+    li.col2
+      float: left
+      width: 47.85833%
+      margin: 1.041666667%
+      p
+        padding: 5px
+      .team-member
+        height: 100px
+    li.col3
+      float: left
+      margin: 1.041666667%
+      width: 31.25%
+      p
+        padding: 5px
+      .team-member
+        height: 128px
+    img
+      width: 100%
+
+  .fellows-list
+    list-style-type: none
+    li
+      float: left
+      width: 31.25%
+      margin: 1.041666667%    
+      overflow: hidden
+      max-height: 356px
+      img
+        width: 100%
+  .advisor-list
+    li 
+      padding-bottom: 10px
