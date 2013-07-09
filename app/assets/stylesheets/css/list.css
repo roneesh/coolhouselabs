@@ -118,9 +118,9 @@
   .cohort-list li:before {
     font-size: 20px; } }
 .blog-roll {
-  margin-bottom: 100px; }
+  margin-bottom: 0; }
 
 .blog-roll-entry {
-  margin: 50px 0; }
+  padding-bottom: 50px; }
   .blog-roll-entry:nth-child(2n) {
     background: #eeeeee; }
