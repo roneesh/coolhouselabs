@@ -24,6 +24,11 @@ p {
 img {
   display: block; }
 
+hr {
+  width: 50px;
+  margin-left: 0;
+  border-color: #007481; }
+
 /* Site Header */
 h1 {
   font-family: "avenir";
@@ -97,6 +102,18 @@ h6 {
   padding-left: 0;
   float: left;
   border-left: 1px solid #eeeeee; }
+
+.blog-roll-column-left {
+  width: 50%;
+  height: 100%;
+  margin: 0;
+  float: left; }
+
+.blog-roll-column-right {
+  width: 50%;
+  height: 100%;
+  margin: 0;
+  float: left; }
 
 .clearfix:before,
 .clearfix:after {

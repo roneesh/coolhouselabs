@@ -117,3 +117,10 @@
     font-size: 20px; }
   .cohort-list li:before {
     font-size: 20px; } }
+.blog-roll {
+  margin-bottom: 100px; }
+
+.blog-roll-entry {
+  margin: 50px 0; }
+  .blog-roll-entry:nth-child(2n) {
+    background: #eeeeee; }
